@@ -1,8 +1,8 @@
 <template>
-  <div class="flex">
+  <div class="flex flex-col">
     <p>
-      <span>姓名: \{{ defaultUser.name }}</span>
-      <span>年龄: \{{ defaultUser.age }}</span>
+      <span>姓名: \{{ defaultUser.name }}</span>,
+      <span>年龄: \{{ defaultUser.age }}</span>,
       <span>性别: \{{ defaultUser.sex }}</span>,
       <span>地址: \{{ defaultUser.address }}</span>
     </p>

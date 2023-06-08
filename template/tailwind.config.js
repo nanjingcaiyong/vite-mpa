@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [
+  content: [
     './src/**/*.html',
     './src/**/*.vue',
     './src/**/*.jsx',
@@ -8,7 +8,6 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
-  content: [],
   theme: {
     extend: {},
   },

@@ -1,5 +1,5 @@
 import { reactive } from 'vue';
 
-export function createStore (data) {
+export default function (data) {
   return reactive(data);
 }
